@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    
+    
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      
+  
+  
+      <div class="fadeIn first">
+        <center><h1>Upload</h1></center>
+      </div>
+  
+      
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="progress-outer">
+                    <h3>Work.doc</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" style="width:80%; box-shadow:-1px 10px 10px rgba(91, 192, 222, 0.7);"></div>
+                        <div class="progress-value">80%</div>
+                    </div>
+                </div>
+                <div class="progress-outer">
+                    <h3>First.img</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:60%; box-shadow:-1px 10px 10px rgba(116, 195, 116,0.7);"></div>
+                        <div class="progress-value">60%</div>
+                    </div>
+                </div>
+                <div class="progress-outer">
+                    <h3>Important.zip</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:40%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7);"></div>
+                        <div class="progress-value">40%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    
+      <div id="formFooter">
+        <div class="file-upload-wrapper">
+            <input type="file" id="input-file-now-custom-1" class="file-upload" data-default-file="https://mdbootstrap.com/img/Photos/Others/images/89.jpg" />
+          </div>
+          <script>
+              $('.file-upload').file_upload();
+          </script>
+      </div>
+  
+    </div>
+  </div>
+</body>
+</html>
+
+
